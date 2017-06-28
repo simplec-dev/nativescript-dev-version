@@ -6,8 +6,10 @@ This plugin just takes the `nativescript.version` property from `package.json` a
 How to use
 ----------
 ```
-$ tns plugin add nativescript-dev-version
+$ tns plugin add nativescript-dev-version-ssi
 ```
+
+This forked version of nativescript-dev-version will expand the version number into a version code that increments properly.  XYYYZZZZ is generated as the version code from version X.Y.Z.  For example, 1.2.3 becomes 10020003
 
 The above command installs this module and installs the necessary NativeScript hooks.
 
