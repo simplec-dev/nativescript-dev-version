@@ -2,8 +2,6 @@
 
 This plugin takes the `version` and `versionNumber` properties from `package.json` and puts on the specific platform resources: `AndroidManifest.xml` file for the Android sources, and `Info.plist` for iOS sources.
 
-This plugin is mainly a fork of [jacargentina/nativescript-dev-version](https://github.com/jacargentina/nativescript-dev-version), with the great ideas from [speigg/nativescript-dev-version](https://github.com/speigg/nativescript-dev-version/tree/patch-1) and [simplec-dev/nativescript-dev-version](https://github.com/simplec-dev/nativescript-dev-version).
-
 Compatible with NS 6.
 
 ## How to use
@@ -55,3 +53,8 @@ On Android, `AndroidManifest.xml` will have:
 <manifest
   (...) android:versionCode="10203001" android:versionName="1.2.3"
 ```
+
+## Breaking changes
+
+When upgading to v0.1.3, for iOS you MUST add "versionNumber": "[value]" to correctly apply on <key>CFBundleVersion</key> in the `Info.plist`
+
