@@ -1,6 +1,6 @@
 {
   "name": "nativescript-dev-version",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "Installs nativescript hooks to maintain native app version (AndroidManifest.xml and Info.plist)'",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,6 @@
   },
   "dependencies": {
     "androidmanifest": "^2.0.0",
-    "bluebird": "^3.4.7",
     "nativescript-hook": "^0.2.1",
     "plist": "^2.0.1"
   }
