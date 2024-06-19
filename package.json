@@ -1,6 +1,6 @@
 {
   "name": "nativescript-dev-version",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "Installs nativescript hooks to maintain native app version (AndroidManifest.xml and Info.plist)'",
   "main": "index.js",
   "scripts": {
