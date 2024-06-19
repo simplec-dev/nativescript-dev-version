@@ -4,8 +4,8 @@
   "description": "Installs nativescript hooks to maintain native app version (AndroidManifest.xml and Info.plist)'",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node postinstall.js",
-    "preuninstall": "node preuninstall.js",
+		"postinstall": "node postinstall.js",
+		"preuninstall": "node preuninstall.js",
     "test": "exit 0"
   },
   "author": "Javier Castro",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "androidmanifest": "^2.0.0",
-    "nativescript-hook": "^0.2.5",
+		"@nativescript/hook": "2.0.0",
     "plist": "^3.0.1"
   }
 }
