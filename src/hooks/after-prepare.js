@@ -3,9 +3,9 @@ var AndroidManifest = require('androidmanifest');
 var iOSPList = require('plist');
 
 module.exports = function(hookArgs, $projectData) {
-  console.log("******************************** WHITE LABEL PREPARE START ********************************");
+  console.log("******************************** DEV VERSION PREPARE START ********************************");
   
-  var appPackage = $projectData.packageJsonData;
+  var appPackage = $projectData.packageJsonData.nativescript;
   var appVersion = appPackage.version;
   let appVersionNumber = appPackage.versionNumber;
   if (!appVersion) {
